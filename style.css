@@ -67,7 +67,6 @@ a {
 }
 
 .game-box, .game {
-  height: 556px;
   background: #000915;
 }
 .game-box__content, .game__content {
