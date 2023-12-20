@@ -44,7 +44,6 @@ alert(result3)
 // 2
 alert (aDigit / bDigit);
 
-
 // Задание 5
 // a
 let cDigit = 2;
