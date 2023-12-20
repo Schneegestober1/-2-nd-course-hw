@@ -1,25 +1,19 @@
 // Задание 1 
-
 let a = 10;
-
 alert (a);
 
 // Задание 2 
 
 let iphone = 2007;
-
 alert (iphone);
 
 // Задание 3 
 
 let creatorJavaScript = "Brendan Eich";
-
 alert (creatorJavaScript);
 
 // Задание 4 
-
 let aDigit = 10;
-
 let bDigit = 2; 
 
 // a
@@ -72,26 +66,20 @@ let letterD = 2;
 alert (letterC % letterD);
 
 // Задание 7 
-
 let num = 1;
-
 num+=5;
 num-=3;
 num*=7;
 num/=3;
 num++;
 num--;
-
 alert(num);
 
-
 //  Задание 8
-
 let age = Number(prompt('Сколько Вам лет'));
 alert(age);
 
 //  Задание 9.0 
-
 const user = {
     name: 'Bill',
     age: 109,
@@ -118,7 +106,6 @@ let info = prompt ('Что Вы хотите узнать о пользоват�
 alert (`Привет, ${info}!`);
 
 // Задание 10
-
 let nameUser = prompt ('Как Вас зовут?');
 alert (`Привет, ${nameUser}!`);
 
