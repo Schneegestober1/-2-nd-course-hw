@@ -101,8 +101,13 @@ delete user.CityOfResidence;
 delete user['city of residence'];
 
 // Задание 9.4 
-let info = prompt ('Что Вы хотите узнать о пользователе?', "user");
-alert (`Привет, ${info}!`);
+const user = {
+	name: 'Bill',
+	age: 45
+};
+let info = prompt ('Что Вы хотите узнать о пользователе?', "name");
+alert (user[info]);
+
 
 // Задание 10
 let nameUser = prompt ('Как Вас зовут?');
