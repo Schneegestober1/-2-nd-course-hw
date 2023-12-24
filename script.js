@@ -1,116 +1,90 @@
-// Задание 1 
-let a = 10;
-alert (a);
+// // Д.з . 2.3 
 
-// Задание 2 
+// // //  Задание 1
 
-let iphone = 2007;
-alert (iphone);
+// let password = String(prompt('Введите пароль'));
 
-// Задание 3 
+// password = password.toLowerCase();
 
-let creatorJavaScript = "Brendan Eich";
-alert (creatorJavaScript);
+// if (password === 'пароль') {
+//     console.log('Пароль введен верно');
+// } else {
+//     console.log('Пароль введен неправильно');
+// }
 
-// Задание 4 
-let aDigit = 10;
-let bDigit = 2; 
+// // // Задание 2 
 
-// a
-// 1)
-let result1 = aDigit + bDigit;
-alert (result1);
-// 2)
-alert (aDigit + bDigit);
+// let c = Number(prompt('Введите число'));
 
-// b  
-// 1
-let result2 = aDigit - bDigit;
-alert (result2)
-// 2
-alert (aDigit - bDigit);
+// if (c >= 0 && c <= 10) {
+//     console.log('Верно');
+// } else {
+//     console.log('Неверно');
+// }
 
-// c
-//1
-let result4 = aDigit * bDigit;
-alert(result4)
-// 2
-alert (aDigit * bDigit);
+// // Задание 3 
 
-// d 
-// 1
-let result3 = aDigit / bDigit;
-alert(result3)
-// 2
-alert (aDigit / bDigit);
+// let d = Number(prompt('Введите первое число'));
+// let e = Number(prompt('Введите второе число'));
 
-// Задание 5
-// a
-let cDigit = 2;
-let result5 = cDigit ** 5;
-alert(result5);
-// b
-let dDigit = 2;
-alert (dDigit ** 5);
+// if (d > 100 || e > 100) {
+//     console.log('Верно');
+// } else {
+//     console.log('Неверно');
+// }
 
-// Задание 6 
-// a
-let letterA = 9;
-let letterB = 2;
-let result6 = letterA % letterB;
-alert (result6);
-// b
-let letterC = 9;
-let letterD = 2;
-alert (letterC % letterD);
+// // Задание 4 
+// // a
+// let a = '2';
+// let b = '3';
+// alert(parseInt (a) + parseInt(b));
+// // b
+// alert(Number (a) + Number(b)); 
 
-// Задание 7 
-let num = 1;
-num+=5;
-num-=3;
-num*=7;
-num/=3;
-num++;
-num--;
-alert(num);
+// // Задание 5 
 
-//  Задание 8
-let age = Number(prompt('Сколько Вам лет'));
-alert(age);
+// let month = String(prompt('Введите номер месяца'));
 
-//  Задание 9.0 
-const user = {
-    name: 'Bill',
-    age: 109,
-    isAdmin: true
-}
+// month = month.toLowerCase(); 
+// // или month = month.toLowerCase() это не надо? Я нашел, что  в switch case можно учитывать разные варианты написания месяцев
 
-// Задание 9.1
-// a
-user.CityOfResidence = 'Boston';
-// b
-user['city of residence'] = 'Boston';
-
-// Задание 9.2 
-user.age = 55; 
-
-//  Задание 9.3
-// a
-delete user.CityOfResidence;
-// b
-delete user['city of residence'];
-
-// Задание 9.4 
-const user = {
-	name: 'Bill',
-	age: 45
-};
-let info = prompt ('Что Вы хотите узнать о пользователе?', "name");
-alert (user[info]);
-
-
-// Задание 10
-let nameUser = prompt ('Как Вас зовут?');
-alert (`Привет, ${nameUser}!`);
-
-
+// switch (month) {
+//     case '1':
+//         console.log('Январь');
+//         break;
+//     case '2':
+//         console.log('Февраль');
+//         break;
+//     case '3':
+//         console.log('Март');
+//         break;
+//     case '4':
+//         console.log('Апрель');
+//         break;
+//     case '5':
+//         console.log('Май');
+//         break;
+//     case '6':
+//         console.log('Июнь');
+//         break;
+//     case '7':
+//         console.log('Июль');
+//         break;
+//     case '8':
+//         console.log('Август');
+//         break;
+//     case '9':
+//         console.log('Сентябрь');
+//         break;
+//     case '10':
+//         console.log('Открябрь');
+//         break;
+//     case '11':
+//         console.log('Ноябрь');
+//         break;
+//     case '12':
+//         console.log('Декабрь');
+//         break;
+//     default: console.log('Все, дальше нет ничего');
+//         break;
+// }
