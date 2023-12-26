@@ -136,3 +136,147 @@
 //         console.log('Установите облегченную версию приложения для Android по ссылке');
 //     }
 // }
+
+
+// ............................................................................................................
+
+// Д.з  2.4 
+
+// //  Задание 1 
+
+// // a
+// let x = 0;
+// while (x < 2) {
+//     console.log('Привет');
+//     x++;
+// }
+
+// // b
+// let y = 0;
+// do {
+//     console.log('Привет');
+//     y++
+// } while (y < 2);
+
+// // c
+// for (let z = 0; z < 2; z++) {
+//     console.log('Привет');
+    
+// }
+
+// // Задание 2
+
+// // a
+// let a = 1;
+// while (a <= 5) {
+//     console.log(a);
+//     a+= 1;
+// }
+
+// // b 
+// let b = 1;
+// do {
+//     console.log(b);
+//     b = b + 1;
+// } while (b <= 5);
+
+// // c 
+// for (c = 1; c <= 5; c++) {
+//     console.log(c);
+// }
+
+// // Задание 3 
+
+// // a 
+// let d = 7;
+// while (d <= 22) {
+//     console.log(d);
+//     d+= 1
+// }
+
+// // b 
+// let e = 7;
+// do {
+//     console.log(e);
+//     e = e + 1
+// } while (e <= 22);
+
+// // c 
+// for (f = 7; f <= 22; f++) {
+//     console.log(f);
+// }
+
+// //  Задание 4 
+// const obj = {
+//     'Коля': '200',
+//     'Вася': '300',
+//     'Петя': '400',
+// }
+
+// for (const hillbilly in obj) {
+//     if (hillbilly === 'Вася') {
+//         break
+//     }
+//     console.log(`${hillbilly} — зарплата ${obj[hillbilly]} долларов`);  
+// }
+
+// //  Задание 5 
+// // a
+// let n = 1000;
+// let num = 0;
+
+// while (n >= 50 ) {
+//     n = n / 2;
+//     num++
+//     console.log(num);
+// }
+
+// // b
+// let n1 = 1000;
+// let num1 = 0;
+
+// do {
+//     console.log(num1);
+//     n1 /= 2;
+//     num1 += 1;
+// } while (n1 >= 50);
+
+// // c
+// let num2 = 0;
+// for (n2 = 1000; n2 >= 50; num2 = num2 + 1 ) {
+//     n2 /= 2;
+//     console.log(num2);
+// }
+
+// Задание 6 
+// a 
+let firstFriday = 1;
+let day = firstFriday;
+
+while (day <= 31) {
+    if ( day % 7 === 0) {
+        console.log(`Сегодня пятница, ${day}е число. Необходимо подготовить отчет.`);
+    } 
+    day += 7;
+}
+
+// b
+let firstFriday1 = 7;
+let day1 = firstFriday1;
+
+do {
+    if ( day1 % 7 === 0) {
+        console.log(`Сегодня пятница, ${day1}е число. Необходимо подготовить отчет.`);
+    }
+    day1 += 7;
+} while (day1 <= 31); 
+
+// c 
+let firstFriday2 = 3;
+
+for (let day2 = firstFriday2; day2 <= 31; day2 += 7) {
+    console.log(`Сегодня пятница, ${day2}е число. Необходимо подготовить отчет.`);
+}
+
+
+
