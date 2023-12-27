@@ -64,6 +64,11 @@ a {
   font-family: inherit;
   margin-top: 44px;
   outline: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.top__button:hover {
+  background-color: #EB443F;
 }
 
 .game-box, .game {
@@ -77,6 +82,15 @@ a {
 }
 .game-box__item, .game__item {
   position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px;
+  transition: all 0.3s;
+}
+.game-box__item:hover, .game__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #001944;
+  border-radius: 16px;
 }
 .game-box__img, .game__img {
   width: 379px;
@@ -91,4 +105,49 @@ a {
   position: absolute;
   bottom: 32px;
   left: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .top__heading {
+    width: 343px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 238px;
+  }
+  .top__text {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .top__button {
+    align-self: center;
+    margin-top: 32px;
+  }
+  .game__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .game__img {
+    max-width: 100%;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

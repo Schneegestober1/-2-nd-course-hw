@@ -58,7 +58,11 @@ a {
         font-family: inherit;
         margin-top: 44px;
         outline: none;
-
+        transition: all 0.3s;
+        cursor: pointer;
+        &:hover {
+            background-color: #EB443F;
+        }
     }
 }
 
@@ -72,6 +76,15 @@ a {
     }
     &__item {
         position: relative;
+        cursor: pointer;
+        box-sizing: border-box;
+        padding: 5px;
+        transition: all 0.3s;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #001944;
+            border-radius: 16px;
+        }
     }
     &__img {
         width: 379px;
@@ -86,6 +99,5 @@ a {
         position: absolute;
         bottom: 32px;
         left: 32px;
-
     }
 }
