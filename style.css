@@ -147,7 +147,6 @@ a {
     gap: 16px;
   }
   .game__img {
-    max-width: 100%;
-    height: auto;
+    width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */
