@@ -43,4 +43,27 @@
             width: 343px;
         }
     }
+
+    .game1 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        &-box {
+            padding-top: 178px;
+        }
+        &__heading {
+        text-align: center;
+        font-size: 32px;
+        }
+        &__text {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__img {
+            width: 343px;
+           
+        }
+    }
 }
