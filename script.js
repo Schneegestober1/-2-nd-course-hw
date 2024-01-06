@@ -7,7 +7,7 @@
 //   if (a > b) {
 //       return b;
 //   } else {
-//       return b;
+//       return a;
 //   }
 // }
 
@@ -71,19 +71,30 @@
 // // // Зажание 4 
 
 // function greeting() {
-//   let age = parseInt(prompt("Сколько вам лет?"));
-//   // let age = Number(prompt("Сколько вам лет?"));
-//   if (isNaN(age)) {
-//     console.log("Вы ввели неправильное значение");
-// } else {
-//     if (age < 0) {
-//         console.log("Вы ввели неправильное значение");
-//     } else if (age <= 12) {
-//         console.log("Привет, друг!");
+
+//   let ageInput = Number(prompt("Сколько вам лет?"));
+
+//   let age = parseInt(ageInput);
+
+//   if (isNaN(age) || ageInput.trim() === "") {
+
+//     console.log("Вы ввели неправильное значение или оставили поле пустым");
+
 //     } else {
+//     if (age < 0) {
+
+//         console.log("Вы ввели неправильное значение");
+
+//     } else if (age <= 12) {
+
+//         console.log("Привет, друг!");
+
+//     } else {
+
 //         console.log("Добро пожаловать!");
+
 //     }
-// }
+//     }
 // }
 
 // greeting();
@@ -91,7 +102,7 @@
 // // // Задание 5 
 
 // function task5(a, b) {
-//   if (isNaN(a) || isNaN(b)) {
+//   if (isNaN(a) || isNaN(b) || a.trim() === '' || b.trim() === '') {
 //     return 'Одно или оба значения не являются числом';
 //   } else {
 //     return a * b;
@@ -115,18 +126,18 @@
 //   }
 // }
 
-// for (a = 0; a <= 10; a++) {
+// for ( let a = 0; a <= 10; a++) {
 //   console.log(toCube());
 // }
 
 // // Задание 7 
 
 // function getCircleArea() {
-//   return 3.14 * this.radius ** 2;
+//   return math.PI * this.radius ** 2;
 // }
 
 // function getCirclePerimeter () {
-//   return 2 * 3.14 * this.radius;
+//   return 2 * math.PI * this.radius;
 // }
 
 // const circle1 = {
@@ -151,21 +162,24 @@
 
 function game1() {
 
-    let numberMonth = parseIntprompt('Введите номер месяца (от 1 до 12):');
+    let numberMonth = +prompt('Введите номер месяца (от 1 до 12):');
 
-    // let numberMonth = Numbert('Введите номер месяца (от 1 до 12):');
+    // let numberMonth = parseInt(prompt('Введите номер месяца (от 1 до 12):'));
+
+    // let numberMonth = Number(('Введите номер месяца (от 1 до 12):'));
 
     if (!isNaN(numberMonth) && numberMonth >= 1 && numberMonth <= 12) {
-        if (numberMonth >= 3 && numberMonthnumberMonth <= 5) {
-            return "Весна";
+        if (numberMonth >= 3 && numberMonth <= 5) {
+         alert ("Весна");
         } else if (numberMonth>= 6 && numberMonth <= 8) {
-            return "Лето";
+         alert ("Лето");
         } else if (numberMonth >= 9 && numberMonth <= 11) {
-            return "Осень";
+         alert ("Осень");
         } else {
-            return "Зима";
+         alert ("Зима");
         }
     } else {
-        return "Некорректный ввод. Введите номер месяца от 1 до 12.";
+        alert ("Некорректный ввод. Введите номер месяца от 1 до 12.");
     } 
 }
+
