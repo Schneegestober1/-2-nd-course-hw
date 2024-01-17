@@ -17,13 +17,13 @@
             <h1 class="top__heading">Добро пожаловать на мой сайт !</h1>
             <p class="top__text">Вам предстоит пройти несколько увлекательных игр. 
             Если готов нажимай <span class="top__text_bold">поехали</span> и <span class="top__text_bold">приступай</span></p>
-            <button class="top__button" type="submit">Поехали!</button>
+            <button class="top__button" onclick="location.href='#game-pick'">Поехали!</button>
         </header>
     </div>
-    <div class="game-box game center">
+    <div class="game-box game center" id="game-pick">
         <div class="game__content">
             <div class="game__item">
-                <a class="game__link" href="#" title="Игра 1"><img      
+                <a class="game__link" href="#game1" title="Игра 1"><img      
                 class="game__img" src="img/g1.svg" alt="Игра 1"></a>
                 <p class="game__name">Игра 1</p>
             </div>
@@ -39,20 +39,19 @@
             </div>
         </div>
     </div>
-    
     <div class="game1 center">
         <div class="game1-box">
             <div class="game1__content">
                 <h2 class="game1__heading">Времена года!</h2>
                 <p class="game1__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                <button class="game1__button" onclick="game1()">Играть!</button>
+                <button class="game1__button" id="game1" onclick="game1()">Играть!</button>
             </div>
             <div class="game1-box__img">
                 <img class="game1__img" src="img/logoGame1.png" alt="logo1">
             </div>
         </div>
     </div>
-
-    <script src="script.js" defer></script>
+    <script src="games.js" defer></script>
+    <script src="hw-2.6.js"></script>
 </body>
 </html>

@@ -205,12 +205,14 @@ a {
     width: 343px;
   }
   .game1 {
-    display: flex;
     text-align: center;
     align-items: center;
   }
   .game1-box {
-    padding-top: 178px;
+    padding-top: 51px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .game1__heading {
     text-align: center;

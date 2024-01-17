@@ -111,33 +111,33 @@
 
 // console.log(task5(3, 'fhfdh'));
 
-// // //  Задание 6 
+// // // //  Задание 6 
 
-// function toCube() {
+// // function toCube() {
 
-//   let a = prompt('Введите число');
+// //   let a = prompt('Введите число');
 
-//   if (isNaN(a)) {
-//     return 'Переданный параметр не является числом';
-//   } else {
-//     let cube = Number(a) ** 3;
-//     // let cube = Math.pow(Number(a), 3);
-//     return a + ' в кубе равняется ' + cube; 
-//   }
-// }
+// //   if (isNaN(a)) {
+// //     return 'Переданный параметр не является числом';
+// //   } else {
+// //     let cube = Number(a) ** 3;
+// //     // let cube = Math.pow(Number(a), 3);
+// //     return a + ' в кубе равняется ' + cube; 
+// //   }
+// // }
 
-// for ( let a = 0; a <= 10; a++) {
-//   console.log(toCube());
-// }
+// // for ( let a = 0; a <= 10; a++) {
+// //   console.log(toCube());
+// // }
 
 // // Задание 7 
 
 // function getCircleArea() {
-//   return math.PI * this.radius ** 2;
+//   return Math.PI * this.radius ** 2;
 // }
 
 // function getCirclePerimeter () {
-//   return 2 * math.PI * this.radius;
+//   return 2 * Math.PI * this.radius;
 // }
 
 // const circle1 = {
@@ -158,28 +158,28 @@
 // console.log(circle2.getArea());
 // console.log(circle2.getPerimeter());
 
-// Game 1 
+// // Game 1 
 
-function game1() {
+// function game1() {
 
-    let numberMonth = +prompt('Введите номер месяца (от 1 до 12):');
+//     let numberMonth = +prompt('Введите номер месяца (от 1 до 12):');
 
-    // let numberMonth = parseInt(prompt('Введите номер месяца (от 1 до 12):'));
+//     // let numberMonth = parseInt(prompt('Введите номер месяца (от 1 до 12):'));
 
-    // let numberMonth = Number(('Введите номер месяца (от 1 до 12):'));
+//     // let numberMonth = Number(('Введите номер месяца (от 1 до 12):'));
 
-    if (!isNaN(numberMonth) && numberMonth >= 1 && numberMonth <= 12) {
-        if (numberMonth >= 3 && numberMonth <= 5) {
-         alert ("Весна");
-        } else if (numberMonth>= 6 && numberMonth <= 8) {
-         alert ("Лето");
-        } else if (numberMonth >= 9 && numberMonth <= 11) {
-         alert ("Осень");
-        } else {
-         alert ("Зима");
-        }
-    } else {
-        alert ("Некорректный ввод. Введите номер месяца от 1 до 12.");
-    } 
-}
+//     if (!isNaN(numberMonth) && numberMonth >= 1 && numberMonth <= 12) {
+//         if (numberMonth >= 3 && numberMonth <= 5) {
+//          alert ("Весна");
+//         } else if (numberMonth>= 6 && numberMonth <= 8) {
+//          alert ("Лето");
+//         } else if (numberMonth >= 9 && numberMonth <= 11) {
+//          alert ("Осень");
+//         } else {
+//          alert ("Зима");
+//         }
+//     } else {
+//         alert ("Некорректный ввод. Введите номер месяца от 1 до 12.");
+//     } 
+// }
 
