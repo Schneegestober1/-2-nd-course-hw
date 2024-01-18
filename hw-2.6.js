@@ -30,18 +30,33 @@
 
 // // // Задание 4 
 
-// let arr4 = [
-//     [1, 1, 1],
-//     [1, 1, 1],
-//     [1, 1, 1],
-// ];
+// // a)
 
-// for (let arr4In of arr4) {
-//     console.log(arr4In);
+// let arr4 = [];
+
+// for (let i = 0; i < 3; i++) {
+//     let pushArray = [1, 1, 1];
+//     arr4.push(pushArray);
 // }
 
+// console.log(arr4);
 
-// //  Задание 5 
+// // b)
+
+// let clock = [];
+
+// for (let i = 0; i < 3; i++) {
+//     let bush = [];
+//     for (let k = 0; k < 3; k++) {
+//         bush.push(1);
+//     }
+//     clock.push(bush);
+// }
+
+// console.log(clock);
+
+
+// //  Задание 5
 
 // let arr5 = [1, 1, 1];
 
@@ -50,7 +65,7 @@
 // console.log(arr5);
 
 
-// // Задание 6 
+// // Задание 6
 
 // // a)
 
@@ -73,7 +88,7 @@
 // console.log(arr6);
 
 
-// // Задание 7 
+// // Задание 7
 
 // function guessNumber() {
 
@@ -107,7 +122,7 @@
 // console.log(reverseArr8);
 
 
-// // Задание 9 
+// // Задание 9
 
 // let arr9 = [
 //     [1, 2, 3,],
@@ -118,14 +133,14 @@
 
 // console.log(lineArray);
 
-// // Задание 10 
+// // Задание 10
 
-// let arr10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr10 = [9, 8, 7, 6, 5];
 
-// let result = arr10.reduce((a, b) => a + b);
-
-// console.log(result);
-
+// for (let i = 0; i < arr10.length - 1; i++ ) {
+//     let sumArr10 = arr10[i] + arr10[i + 1];
+//     console.log(`Сумма текущего элемента равна ${arr10[i]} и следуещего эелемента ${arr10[i + 1]} = ${sumArr10}`);
+// }
 
 // // Задание 11
 
@@ -175,14 +190,14 @@
 // filterPositive()
 
 
-// // Задание 14 
+// // Задание 14
 
 // -
 
-// // Задание 15 
+// // Задание 15
 
 // -
- 
+
 
 
 
