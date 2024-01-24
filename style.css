@@ -121,6 +121,12 @@ a {
   padding-top: 234px;
   padding-bottom: 234px;
 }
+.game1-box__for2 {
+  display: flex;
+  gap: 135px;
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
 .game1__heading {
   color: #FFF;
   font-size: 48px;
@@ -213,6 +219,14 @@ a {
     padding-bottom: 85px;
     display: flex;
     flex-wrap: wrap;
+    gap: 65px;
+  }
+  .game1-box__for2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-bottom: 90px;
+    gap: 64px;
   }
   .game1__heading {
     text-align: center;

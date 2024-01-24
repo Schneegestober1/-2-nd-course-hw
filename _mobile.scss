@@ -54,6 +54,14 @@
             padding-bottom: 85px;
             display: flex;
             flex-wrap: wrap;
+            gap: 65px;
+            &__for2 {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+                padding-bottom: 90px;
+                gap: 64px;
+            }
         }
         &__heading {
             text-align: center;

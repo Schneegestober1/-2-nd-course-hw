@@ -112,6 +112,12 @@ a {
         gap: 135px;
         padding-top: 234px;
         padding-bottom: 234px;
+        &__for2 {
+            display: flex;
+            gap: 135px;
+            padding-top: 239px;
+            padding-bottom: 239px;
+        }
     }
     &__heading{
         color: #FFF;
