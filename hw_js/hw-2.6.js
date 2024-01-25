@@ -133,6 +133,10 @@
 
 // console.log(lineArray);
 
+// const arr = [[1, 2, 3,], [4, 5, 6]];
+// // const flatArr = arr.flat();
+// // console.log(flatArr);
+
 // // Задание 10
 
 // let arr10 = [9, 8, 7, 6, 5];
@@ -188,6 +192,20 @@
 // }
 
 // filterPositive()
+
+// function filterPositive(array) {
+//     const negativeNumbers = array.filter(item => item < 0);
+//     console.log(negativeNumbers2);
+// }
+
+// filterPositive()
+
+// function filterPositive(array) {
+// 	return array.filter(num => num < 0);
+// }
+
+// console.log(filterPositive([-1, 0, 5, -10, 56])); // => [-1, -10]
+// console.log(filterPositive([-25, 25, 0, -1000, -2])); // => [-25, -1000, -2]
 
 
 // // Задание 14
