@@ -54,10 +54,12 @@
             padding-bottom: 85px;
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
             gap: 65px;
             &__for2 {
                 display: flex;
                 flex-wrap: wrap;
+                align-items: center;
                 flex-direction: column-reverse;
                 padding-bottom: 90px;
                 gap: 64px;
